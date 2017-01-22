@@ -1,0 +1,7 @@
+spark-submit --verbose --class TwitterSentiment --master yarn --deploy-mode cluster --jars /home/administrator/.m2/repository/org/apache/spark/spark-core_2.11/1.5.2/spark-core_2.11-1.5.2.jar,/home/administrator/.m2/repository/org/twitter4j/twitter4j-stream/4.0.4/twitter4j-stream-4.0.4.jar,/home/administrator/.m2/repository/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.jar,/home/administrator/.m2/repository/org/apache/spark/spark-streaming-twitter_2.11/1.6.2/spark-streaming-twitter_2.11-1.6.2.jar,/home/administrator/.m2/repository/org/apache/spark/spark-streaming_2.11/1.5.2/spark-streaming_2.11-1.5.2.jar,/home/administrator/.m2/repository/edu/stanford/nlp/stanford-corenlp/3.5.2/stanford-corenlp-3.5.2.jar,/home/administrator/.m2/repository/javax/json/javax.json-api/1.0/javax.json-api-1.0.jar,/home/administrator/.m2/repository/com/io7m/xom/xom/1.2.10/xom-1.2.10.jar,/home/administrator/.m2/repository/joda-time/joda-time/2.1/joda-time-2.1.jar,/home/administrator/.m2/repository/de/jollyday/jollyday/0.4.7/jollyday-0.4.7.jar,/home/administrator/.m2/repository/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar,/home/administrator/.m2/repository/edu/stanford/nlp/stanford-corenlp/3.5.2/stanford-corenlp-3.5.2-models.jar,/home/administrator/.m2/repository/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.jar /home/administrator/NewSparkWorkSpace/TweetYarn.jar
+
+
+
+
+
+
